@@ -17,6 +17,6 @@ release_2020 = df[df['release_year']==2020]
 release_2021 = df[df['release_year']==2021]
 
 # Ahora los convierto en diccionario
-release_2019.reset_index().to_dict(orient="index")
-release_2020.reset_index().to_dict(orient="index")
-release_2021.reset_index().to_dict(orient="index")
+dic2019 = release_2019.reset_index().to_dict(orient="index")
+dic2020 = release_2020.reset_index().to_dict(orient="index")
+dic2021 = release_2021.reset_index().to_dict(orient="index")
